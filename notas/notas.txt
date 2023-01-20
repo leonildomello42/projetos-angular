@@ -1,0 +1,17 @@
+Dependecnias: 
+ 
+* node : node -v
+* npm : npm -v
+* npm install -g @angular/cli
+
+----
+
+* ng new my-first-project
+* cd my-first-project
+* ng serve || ng s
+
+* http://localhost:4200/
+
+----
+
+* ng generate component nome || ng g c title
