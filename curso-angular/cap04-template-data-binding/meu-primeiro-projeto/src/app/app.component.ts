@@ -8,6 +8,8 @@ import { AfterContentChecked, AfterContentInit, AfterViewChecked, AfterViewInit,
   <app-title *ngIf="destruir"></app-title>
   <br>
   <button (click)="destruirComponente()">Destruir componente</button>
+  <br>
+  <app-data-binding></app-data-binding>
   <router-outlet></router-outlet>
   `
 })
